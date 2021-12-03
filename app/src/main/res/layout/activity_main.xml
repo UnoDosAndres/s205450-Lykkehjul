@@ -73,19 +73,30 @@
         android:text="@string/spin_the_wheel"
         android:textSize="30sp" />
 
+    <TextView
+        android:id="@+id/word"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:text="Word"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+
+
     <EditText
-        android:id="@+id/Word"
+        android:id="@+id/letterGuess"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:maxLength="1"
         android:layout_alignParentTop="false"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="110dp"
         android:gravity="center"
         android:inputType="text"
-        android:hint="@string/guess_the_word"
-        android:textSize="30sp"
+        android:hint="@string/guess_a_letter"
+        android:textSize="25sp"
         android:textStyle="bold"
-        android:layout_centerHorizontal="true"/>
+        android:layout_centerHorizontal="true" />
     <TextView
         android:id="@+id/lettersUsed"
         android:layout_width="match_parent"
@@ -103,7 +114,7 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:text="@string/lives_left"
-        android:layout_marginTop="540dp"
+        android:layout_marginTop="550dp"
         android:textSize="25sp"
         android:textStyle="bold"
         android:textColor="@color/white"/>

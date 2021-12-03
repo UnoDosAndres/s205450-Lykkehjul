@@ -8,4 +8,9 @@
     <string name="letters_used">Letters used:</string>
     <string name="lives_left">Lives left:</string>
     <string name="guess_the_word">Guess the word</string>
+    <string name="guess_a_letter">Guess a letter</string>
+    <string name="congratulaitons">CONGRATULAITONS</string>
+    <string name="you_have_won">YOU HAVE WON!!!</string>
+    <string name="continue1">Continue</string>
+    <string name="restart">Restart?</string>
 </resources>
