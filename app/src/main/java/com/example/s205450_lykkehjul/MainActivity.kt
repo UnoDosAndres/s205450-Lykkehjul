@@ -92,6 +92,7 @@ class MainActivity : AppCompatActivity() {
             displayWordInApp()
             if (!wordDisplayed.contains("_") && lives > 0) {
                 //here the win fragment should show
+                Toast.makeText(applicationContext,"CONGRATULATIONS YOU HAVE WON!!!",Toast.LENGTH_LONG).show()
             }
         }
         else {
@@ -99,6 +100,7 @@ class MainActivity : AppCompatActivity() {
             binding.livesLeft.text = "Lives left: $lives"
             if (lives <= 0) {
                 //Here the lose fragment should show
+                Toast.makeText(applicationContext,"SORRY BUT YOU LOST",Toast.LENGTH_LONG).show()
             }
             if (lettersTried.indexOf(letter) < 0) {
                 lettersTried += "$letter, "

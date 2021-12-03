@@ -4,6 +4,8 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/andre/AndroidStudioProjects/s205450Lykkehjul/app/src/main/res/layout/activity_main.xml" value="0.23421052631578948" />
+        <entry key="..\:/Users/andre/AndroidStudioProjects/s205450Lykkehjul/app/src/main/res/layout/fragment_lose.xml" value="0.2046875" />
+        <entry key="..\:/Users/andre/AndroidStudioProjects/s205450Lykkehjul/app/src/main/res/layout/fragment_win.xml" value="0.190625" />
         <entry key="..\:/Users/andre/AndroidStudioProjects/s205450Lykkehjul/app/src/main/res/layout/win_screen.xml" value="0.36666666666666664" />
       </map>
     </option>
