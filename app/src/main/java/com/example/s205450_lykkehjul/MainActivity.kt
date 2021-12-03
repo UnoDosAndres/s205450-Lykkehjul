@@ -90,13 +90,12 @@ class MainActivity : AppCompatActivity() {
         if (wordToBeGuessed.indexOf(letter) >= 0 && wordDisplayed.indexOf(letter) < 0) {
             showLetterInWord(letter)
             displayWordInApp()
-            if (!wordDisplayed.contains("_") && lives > 0) {
+            if (!wordDisplayed.contains("_")) {
                 //here the win fragment should show
-                Toast.makeText(applicationContext,"CONGRATULATIONS YOU HAVE WON!!!",Toast.LENGTH_LONG).show()
             }
         }
         else {
-            lives = lives-1
+            lives -= 1
             binding.livesLeft.text = "Lives left: $lives"
             if (lives <= 0) {
                 //Here the lose fragment should show
