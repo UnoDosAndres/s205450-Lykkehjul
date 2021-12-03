@@ -1,0 +1,7 @@
+house
+tree
+santa
+gift
+dinner
+yellow
+magenta

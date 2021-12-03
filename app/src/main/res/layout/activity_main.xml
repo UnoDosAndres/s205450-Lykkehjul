@@ -10,8 +10,8 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="55dp"
-        android:text="@string/spin"
-        android:textColor="@color/white"
+        android:text="@string/wheel_of_fortune"
+        android:textColor="@color/purple_200"
         android:textStyle="bold"
         android:textSize="30sp"
         android:gravity="center"/>
@@ -51,6 +51,7 @@
             tools:ignore="ContentDescription" />
 
 
+
     </RelativeLayout>
 
     <ImageView
@@ -71,6 +72,43 @@
         android:layout_marginBottom="50dp"
         android:text="@string/spin_the_wheel"
         android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/Word"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLength="1"
+        android:layout_alignParentTop="false"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:inputType="text"
+        android:hint="@string/guess_the_word"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:id="@+id/lettersUsed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp"
+        android:text="@string/letters_used"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        />
+    <TextView
+        android:id="@+id/livesLeft"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/lives_left"
+        android:layout_marginTop="540dp"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"/>
+
+
 
 
 
