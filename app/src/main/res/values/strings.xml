@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">s205450-Lykkehjul</string>
+    <string name="spin">SPIN!</string>
+    <string name="todo1">TODO</string>
+    <string name="todo2">TODO</string>
+    <string name="todo3">TODO</string>
+    <string name="spin_the_wheel">SPIN THE WHEEL!</string>
+</resources>

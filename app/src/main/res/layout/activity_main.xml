@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_4"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="@string/spin"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:gravity="center"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:id="@+id/omrids"
+            android:layout_width="match_parent"
+            android:layout_height="320dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="13dp"
+            android:layout_marginEnd="11dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerInside"
+            android:src="@drawable/omrids"
+            android:translationX="-3dp"
+            android:translationY="-25dp" />
+
+        <ImageView
+            android:id="@+id/hjulFelter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="70dp"
+            android:layout_marginEnd="70dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerInside"
+            android:src="@drawable/hjul"
+            android:translationX="0dp"
+            android:translationY="0dp"
+            tools:ignore="ContentDescription" />
+
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/pil"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/img_3"
+        android:translationX="180dp"
+        android:translationY="170dp"
+        tools:ignore="ContentDescription" />
+
+    <Button
+        android:id="@+id/spinKnap"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:text="@string/spin_the_wheel"
+        android:textSize="30sp" />
+
+
+
+</RelativeLayout>
